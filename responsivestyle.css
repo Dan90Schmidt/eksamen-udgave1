@@ -69,17 +69,30 @@ header {
     margin: 0 10px;
 }
 
-
-.rotating-banner {
+.rotating-banner-container {
     overflow: hidden;
     position: relative;
     height: 200px;
     margin-top: 20px;
+	background-color: #026928; /* Green background color */
+	padding-top: -100px;
+	padding-bottom: -100px;
+	margin-bottom: 50px;
+}
+
+.rotating-banner {
+    position: absolute;
+    width: 300%; /* Adjust the width based on the number of images */
     animation: rotateBanner 20s linear infinite;
 }
 
 .rotating-banner:hover {
     animation-play-state: paused;
+}
+
+.banner-container {
+    width: 100; /* Set to 100% / number of images */
+    float: left;
 }
 
 .rotating-banner img {
@@ -104,8 +117,8 @@ header {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #FFFFFF;
+    color: #000000 ;
     text-align: center;
     padding: 20px;
     display: flex;
