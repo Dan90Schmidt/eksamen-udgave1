@@ -65,6 +65,14 @@ header {
 	left: 0;
 }
 
+.desktop-menu li:last-child { /* Grøn boks til det sidste barn som er "contact us". */
+    font-size: 22px; 
+    background-color: #026928; /* Green background color */
+    padding: 5px 10px; 
+	position: relative;
+	top: -5px; /* Dette var en vigtig tilføjelse, da både teksten og den grønne boks var faldet lidt ned. */
+}
+
 .content-container {
     display: flex;
     justify-content: space-between;
@@ -107,7 +115,7 @@ header {
 
 .rotating-banner {
     position: absolute;
-    width: 260%; /* Adjust the width based on the number of images */
+    width: 260%; /* justere width baseret på nummeret af billeder */
     animation: rotateBanner 220s linear infinite;
 }
 
