@@ -89,7 +89,7 @@ header {
 	margin-right: 0;
 }
 
-.green-line {
+.green-line { /* Grøn linje */
     height: 2px;
     background-color: #03A840;
     margin-bottom: 10px;
@@ -108,7 +108,7 @@ header {
 }
 
 .feature-box img {
-    width: 100%; /* Set the width to 100% to make the image fill its container */
+    width: 100%; /* Billede 1 */
     max-width: 100px; 
     height: auto; 
 
@@ -119,16 +119,16 @@ header {
 	margin-left: 0
 }
 
-.feature-content h3 {
+.feature-content h3 { /* Overskrift 1 */
     font-size: 24px;
     margin-bottom: 10px;
 	text-align: center;
 }
 
-.secondary-text {
-	display: block; /* Make the span a block element */
-    margin-top: 10px; /* Adjust the margin as needed */
-    font-weight: normal; /* Add bold style if needed */
+.secondary-text { /* tekst 1 */
+	display: block; 
+    margin-top: 10px; 
+    font-weight: normal; 
 }
 
 .feature-content p {
@@ -143,7 +143,7 @@ header {
 }
 
 .feature-box2 img {
-    width: 100%; /* Set the width to 100% to make the image fill its container */
+    width: 100%; /* Billede 2 */
     max-width: 150px; 
     height: auto; 
 }
@@ -160,11 +160,11 @@ header {
 }
 
 .feature-box2 h4 {
-    font-size: 24px; /* Adjust the font size for the heading */
+    font-size: 24px; /* Overskrift 2 */
     margin-bottom: 10px;
 }
 
-.feature-box2 p {
+.feature-box2 p { /* tekst 2 */
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -182,10 +182,10 @@ header {
 	margin-top: -16px;
 }
 
-.feature-box3 img {
-    width: 100%; /* Set the width to 100% to make the image fill its container */
-    max-width: 100px; /* Set a maximum width if needed */
-    height: auto; /* Maintain the aspect ratio */
+.feature-box3 img { /* Billede 3 */
+    width: 100%; 
+    max-width: 100px; 
+    height: auto; 
 }
 
 .feature-content3 {
@@ -193,17 +193,17 @@ header {
 }
 
 .feature-content3 h5 {
-    font-size: 24px; /* Adjust the font size for the heading */
+    font-size: 24px; /* Overskrift 3 */
     margin-bottom: 10px;
 }
 
-.feature-content3 p {
+.feature-content3 p { /* Tekst 3 */
     font-size: 16px;
     margin-bottom: 20px;
 }
 
 .feature-content3 span {
-    font-weight: bold; /* Add bold style if needed */
+    font-weight: bold; 
 }
 
 
