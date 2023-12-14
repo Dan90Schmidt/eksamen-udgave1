@@ -106,11 +106,11 @@ header {
     opacity: 0;
     transition: opacity 1s ease-in-out;
 	margin-right: 20px; /* Denne kode er tilføjet for at give plads mellem billederne */
-	margin-top: -40px; /* Denne kode angiver placeringen i forhold til rotating-banner, så billederne er placeret mere centralt */
+	margin-top: -60px; /* Denne kode angiver placeringen i forhold til rotating-banner, så billederne er placeret mere centralt */
 
 }
 
-.rotating-banner img.active {
+.rotating-banner img.active { /* Der er i alt 9 billeder på rotating-banner, og de står herunder */
     opacity: 1;
 }
 
