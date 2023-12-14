@@ -105,8 +105,8 @@ header {
     object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-	margin-right: 20px;
-	margin-top: -40px;
+	margin-right: 20px; /* Denne kode er tilføjet for at give plads mellem billederne */
+	margin-top: -40px; /* Denne kode angiver placeringen i forhold til rotating-banner, så billederne er placeret mere centralt */
 
 }
 
