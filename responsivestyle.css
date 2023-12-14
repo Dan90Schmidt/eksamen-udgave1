@@ -108,7 +108,7 @@ header {
 .rotating-banner {
     position: absolute;
     width: 300%; /* Adjust the width based on the number of images */
-    animation: rotateBanner 20s linear infinite;
+    animation: rotateBanner 40s linear infinite;
 }
 
 .rotating-banner:hover {
