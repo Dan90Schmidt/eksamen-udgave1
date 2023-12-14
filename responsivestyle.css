@@ -122,6 +122,9 @@ header {
 	opacity: 1;
 }
 
+.rotating-banner img.active4 {
+	opacity: 1;
+}
 
 @keyframes rotateBanner {
     0% {
