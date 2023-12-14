@@ -97,19 +97,40 @@ header {
 
 .feature-boxes {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 20px;
 }
 
 .feature-box {
-    text-align: center;
-    margin: 0 10px;
+    text-align: left;
+    margin: 20px;
 }
 
 .feature-box img {
     width: 100%; /* Set the width to 100% to make the image fill its container */
-    max-width: 700px; 
+    max-width: 100px; 
     height: auto; 
+}
+
+.feature-content {
+    margin-top: 20px;
+}
+
+.feature-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+	text-align: center;
+}
+
+.feature-content p {
+    font-size: 16px;
+	
+}
+
+.secondary-text {
+    display: block; /* Make the span a block element */
+    margin-top: 10px; /* Adjust the margin as needed */
+    font-weight: normal; /* Add bold style if needed */
 }
 
 .rotating-banner-container {
