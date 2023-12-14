@@ -105,11 +105,20 @@ header {
     object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+	margin-right: 20px;
+	margin-top: -40px;
+
 }
 
 .rotating-banner img.active {
     opacity: 1;
 }
+
+.rotating-banner img.active2 {
+	opacity: 1;
+}
+	
+
 
 @keyframes rotateBanner {
     0% {
