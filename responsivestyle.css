@@ -134,6 +134,10 @@ header {
 	opacity: 1;
 }
 
+.rotating-banner img.active7 {
+	opacity: 1;
+}
+
 @keyframes rotateBanner {
     0% {
         transform: translateX(100%);
