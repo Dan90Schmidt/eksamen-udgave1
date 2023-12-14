@@ -101,7 +101,7 @@ header {
 
 .rotating-banner img {
     width: 5%;
-    height: 65%;
+    height: 50%;
     object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -127,6 +127,10 @@ header {
 }
 
 .rotating-banner img.active5 {
+	opacity: 1;
+}
+
+.rotating-banner img.active6 {
 	opacity: 1;
 }
 
