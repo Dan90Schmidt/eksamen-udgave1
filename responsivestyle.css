@@ -18,8 +18,12 @@ header {
     align-items: center;
 }
 
-.logo {
-    font-size: 20px;
+
+
+.logo img { /* Dripdrop logo der står øverst oppe i venstre hjørne */
+    width: 100px;
+	height: auto;
+	
 }
 
 .burger-menu {
