@@ -80,14 +80,14 @@ header {
 }
 
 .side-box {
-    width: 200px;
+    width: 700px;
     padding: 20px;
-    background-color: #eee;
+    background-color: white;
 }
 
 .green-line {
     height: 2px;
-    background-color: #00ff00;
+    background-color: #03A840;
     margin-bottom: 10px;
 }
 
