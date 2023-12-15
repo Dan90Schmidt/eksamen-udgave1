@@ -423,8 +423,8 @@ footer {  /* Footer */
 }
 
 .privat-police {
-    border-bottom: 1px solid #000; /* Adjust color and thickness as needed */
-    display: inline; /* Ensure it stays on the same line */
+	color: black;
+	
 }
 
 
