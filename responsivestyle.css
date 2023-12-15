@@ -35,6 +35,7 @@ header {
 
 .desktop-menu {
     display: flex;
+	font-size: 20px; 
 }
 
 .desktop-menu ul {
@@ -42,31 +43,34 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
+	font-size: 20px; 
 }
 
 .desktop-menu li {
-    margin-right: 20px;
+    margin-right: 40px;
 	position: relative;
+	font-size: 20px; 
 }
 
 .desktop-menu li a {
     text-decoration: none;
     color: black;
+	font-size: 20px; 
 }
 
 .desktop-menu li.active::after {
     content: "";
     display: block;
     width: 100%;
-    height: 4px;
+    height: 5px;
     background-color: #026928; /* Green line color */
     position: absolute;
-    bottom: 15px;
+    bottom: 12px;
 	left: 0;
 }
 
 .desktop-menu li:last-child { /* Grøn boks til det sidste barn som er "contact us". */
-    font-size: 22px; 
+    font-size: 24px; 
     background-color: #026928; /* Green background color */
     padding: 5px 10px; 
 	position: relative;
@@ -377,7 +381,6 @@ footer {  /* Footer */
 .contact-column {  /* Contact us */
 	
 }
-
 .address-column {  /* Follow us + logoer */
     text-align: center;
     margin-left: 160px;
