@@ -364,7 +364,7 @@ body {
     }
 }
 
-footer {
+footer {  /* Footer */
     background-color: #FFFFFF;
     color: #000000 ;
     text-align: center;
@@ -374,8 +374,26 @@ footer {
     justify-content: space-around;
 }
 
-.contact-column,
-.address-column,
+.contact-column {  /* Contact us */
+	
+}
+
+.address-column {  /* Follow us + logoer */
+    text-align: center;
+    margin-left: 50px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 50%;
+}
+
+.SoMe img {
+    width: 30px;
+    margin-top: 10px; 
+	padding-left: 20px;
+}
+
 .social-media-column {
     flex: 1;
 }
