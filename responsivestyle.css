@@ -86,16 +86,16 @@ body {
     color: white;
 	font-size: 12px;
 	line-height: 1.5;
-	display: flex;
 	margin-top: 25px;
 }
 
 .side-box-container { /* Begge side-boxes skal align */
-    display: flex;
 	text-align: center;
 	flex-direction: column;
 	align-items: center;
 	height: 0px;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .read-more-btn {
@@ -115,13 +115,13 @@ body {
     margin-left: 120px; /* Adjust for the width of the side box and additional space */
     padding: 20px;
 	display: flex;
+	justify-content: flex-start;
 }
 
 .green-line {
     height: 2px;
     background-color: #026928; /* Green color */
     margin: 10px 0;
-	display: flex;
 }
 
 .side-box2 { /* side-box "brighter rainy days for guest. */
@@ -133,7 +133,6 @@ body {
 }
 
 .content-container {
-    display: flex;
     flex-direction: column;
     align-items: center;
 	text-align: center;
