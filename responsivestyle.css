@@ -368,7 +368,7 @@ footer {  /* Footer */
     background-color: #FFFFFF;
     color: #000000 ;
     text-align: center;
-    padding: 80px;
+    padding: 50px;
     display: flex;
 	margin-top: auto;
     justify-content: space-around;
@@ -380,7 +380,7 @@ footer {  /* Footer */
 
 .address-column {  /* Follow us + logoer */
     text-align: center;
-    margin-left: 50px;
+    margin-left: 160px;
     margin-right: auto;
     display: flex;
     flex-direction: column; 
@@ -394,18 +394,40 @@ footer {  /* Footer */
 	padding-left: 20px;
 }
 
-.social-media-column {
+.About-us {
     flex: 1;
+	text-align: center;
+    margin-right: -100px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 50%;
 }
 
-.social-media-column ul {
+.About-us ul {
     padding: 0;
     list-style: none;
 }
 
-.social-media-column li {
+.About-us li {
     margin-bottom: 5px;
 }
+
+.copyright {
+	margin-top: -30px;
+	margin-bottom: 50px;
+	display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.privat-police {
+    border-bottom: 1px solid #000; /* Adjust color and thickness as needed */
+    display: inline; /* Ensure it stays on the same line */
+}
+
+
 
 /* Media Query for Responsive Design */
 @media only screen and (max-width: 600px) {
