@@ -415,6 +415,54 @@ body {
     margin-top: 20px;
 }
 
+/* sustainbility page */
+
+.sustainability-page {
+    padding: 20px;
+}
+
+.working-with-un {
+    text-align: center;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-side-tree,
+.goal-12, .goal-14, .goal-15 {
+    flex: 1;
+}
+
+.goal-12 img,
+.right-side img {
+    width: 50%;
+    margin-bottom: 10px;
+	margin-left: 45px;
+	margin-top: 45px;
+}
+
+.goal-14 img,
+.right-side img {
+    width: 50%;
+    margin-bottom: 10px;
+	margin-left: 45px;
+	margin-top: 45px;
+}
+
+.goal-15 img,
+.right-side img {
+    width: 50%;
+    margin-bottom: 10px;
+	margin-left: 45px;
+}
+
+.eco-friendly-title {
+    text-align: center;
+    margin-top: 20px;
+}
 
 footer {  /* Footer */
     background-color: #FFFFFF;
