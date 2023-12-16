@@ -422,41 +422,61 @@ body {
 }
 
 .working-with-un {
-    text-align: center;
+    text-align: right;
+	margin-right: 220px;
+}
+
+.working-with-un-2 {
+	text-align: right;
+	margin-right: 50px;
 }
 
 .side-by-side {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 60px;
+}
+
+.left-side-tree img {
+	width: 380px;
+	margin-left: auto;
+	margin-right: 10px;
 }
 
 .left-side-tree,
 .goal-12, .goal-14, .goal-15 {
     flex: 1;
+	padding: 11px;
+}
+
+.goal-12, .goal-14, .goal-15 {
+	justify-content: space-between;
 }
 
 .goal-12 img,
 .right-side img {
-    width: 50%;
-    margin-bottom: 10px;
-	margin-left: 45px;
-	margin-top: 45px;
+    width: 40%;
+    margin-bottom: 5px;
+	margin-left: 70px;
+	margin-top: 20px;
 }
 
+.goal-12 h3, .goal-14 h3, .goal-15 h3 {
+	font-size: 15px;
+}
 .goal-14 img,
 .right-side img {
-    width: 50%;
+    width: 40%;
     margin-bottom: 10px;
-	margin-left: 45px;
-	margin-top: 45px;
+	margin-left: 80px;
+	margin-top: 20px;
 }
 
 .goal-15 img,
 .right-side img {
-    width: 50%;
+    width: 40%;
     margin-bottom: 10px;
-	margin-left: 45px;
+	margin-left: 80px;
 }
 
 .eco-friendly-title {
