@@ -372,6 +372,29 @@ body {
     }
 }
 
+.banner-with-umbrellas img {
+    width: 100%;
+	padding-top: -00px;
+}
+
+.content-container-guests {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section-guests,
+.right-section-easy {
+    width: 45%;
+}
+
+.left-section-guests img,
+.right-section-easy img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
 footer {  /* Footer */
     background-color: #FFFFFF;
     color: #000000 ;
