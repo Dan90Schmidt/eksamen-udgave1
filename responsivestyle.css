@@ -10,12 +10,14 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: transparent;
     color: black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+	 position: relative;
+	z-index: 1; /* Set a higher z-index for the header */
 }
 
 
@@ -374,18 +376,33 @@ body {
 
 .banner-with-umbrellas img {
     width: 100%;
-	padding-top: -00px;
+	position: absolute; /* banner billede med gron paraply */
+    top: 0;
+    left: 0;
+	z-index:-1;
+	height: 240px;
 }
 
-.content-container-guests {
+.content-container-guests { /* "dry guests are happy" venste side */
     display: flex;
+	margin-top: 100px;
     justify-content: space-between;
     padding: 20px;
 }
 
+.right-section-easy { /* "umbrellas are easier with dripdrop" højre side */
+	line-height: 2.5;
+}
+
+.right-section-easy h2 {
+	margin-bottom: 80px;
+}
+
+
 .left-section-guests,
 .right-section-easy {
     width: 45%;
+	text-align: center;
 }
 
 .left-section-guests img,
