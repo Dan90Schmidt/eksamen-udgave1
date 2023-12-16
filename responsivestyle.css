@@ -424,11 +424,13 @@ body {
 .working-with-un { /* H2: Workng with UN */
     text-align: right;
 	margin-right: 220px;
+	margin-left: auto;
 }
 
 .working-with-un-2 { /* Tekst under "Working with UN" */
 	text-align: right;
 	margin-right: 50px;
+	margin-left: auto;
 }
 
 .side-by-side { /* section tree + goal 12, 14 og 15 */
@@ -441,12 +443,28 @@ body {
 	width: 380px;
 	margin-left: auto;
 	margin-right: 10px;
+	margin-top: -135px;
+}
+
+.content-container-tree {
+	margin-left: 40px;
+	margin-right: auto;
+	text-align: auto;
+	line-height: 1.5;
+	margin-top: -135px;
+}
+
+.content-container-tree h3 {
+	margin-right: auto;
+	margin-left: 50px;
 }
 
 .left-side-tree,
 .goal-12, .goal-14, .goal-15 {
     flex: 1;
 	padding: 11px;
+	margin-left: auto;
+	margin-right: 0;
 }
 
 .goal-12, .goal-14, .goal-15 {
@@ -459,6 +477,7 @@ body {
     margin-bottom: 5px;
 	margin-left: 70px;
 	margin-top: 20px;
+	margin-right: auto;
 }
 
 .goal-12 h3, .goal-14 h3, .goal-15 h3 {
@@ -470,6 +489,7 @@ body {
     margin-bottom: 10px;
 	margin-left: 80px;
 	margin-top: 20px;
+	margin-right: auto;
 }
 
 .goal-15 img,
@@ -477,15 +497,18 @@ body {
     width: 40%;
     margin-bottom: 10px;
 	margin-left: 80px;
+	margin-right: auto;
 }
 
-.side-by-side-2 { /* section tree + goal 12, 14 og 15 */
+.side-by-side-2 { /* hele sektion med de 3 cirkler med numre indeni + H2 "protecting your guests" */
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;
+    margin-top: 60px;
+	margin-right: auto;
+	margin-left: 0;
 }
 
-.side-by-side-2 img {
+.side-by-side-2 img { /* 3 cirkler */
 	width: 700px;
 	margin-left: auto;
 	margin-right: 10px;
@@ -567,12 +590,12 @@ footer {  /* Footer */
         display: none;
     }
 
-   .burger-menu {
-	    display: block;
-	    cursor: pointer;
+    .burger-menu {
+        display: block;
+        cursor: pointer;
     }
 
-	#menuToggle:checked + .desktop-menu {
+    #menuToggle:checked + .desktop-menu {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -582,7 +605,7 @@ footer {  /* Footer */
         right: 0;
         background-color: white;
         z-index: 2;
-		width: 100%;
+        width: 100%;
     }
 
     /* Style for the responsive menu items */
@@ -593,8 +616,120 @@ footer {  /* Footer */
     #menuToggle:checked + .desktop-menu li {
         margin-right: 0;
     }
-	
-    .content-container {
-        flex-direction: column;
+
+    header {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+
+    .logo img {
+        width: 80px; /* Adjust logo size for smaller screens */
+    }
+
+    .content-container,
+    .side-box-container,
+    .feature-boxes,
+    .rotating-banner-container,
+    .content-container-guests,
+    .side-by-side,
+    .side-by-side-2,
+    .working-with-un,
+    .working-with-un-2,
+    .content-container-tree,
+    footer {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .desktop-menu li {
+        margin-right: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .read-more-btn {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .side-box1 {
+        width: auto; /* Allow side box width to adjust */
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .feature-box img,
+    .feature-box2 img,
+    .feature-box3 img,
+    .rotating-banner img,
+    .banner-with-umbrellas img,
+    .left-section-guests img,
+    .right-section-easy img,
+    .goal-12 img,
+    .goal-14 img,
+    .goal-15 img,
+    .side-by-side-2 img {
+        width: 100%; /* Make images responsive */
+    }
+
+    .banner-container {
+        width: 100%; /* Make banner container responsive */
+    }
+
+    .rotating-banner img,
+    .rotating-banner img.active,
+    .rotating-banner img.active2,
+    .rotating-banner img.active3,
+    .rotating-banner img.active4,
+    .rotating-banner img.active5,
+    .rotating-banner img.active6,
+    .rotating-banner img.active7,
+    .rotating-banner img.active8,
+    .rotating-banner img.active9 {
+        margin-right: 0; /* Adjust margin for smaller screens */
+        margin-top: 0; /* Adjust margin for smaller screens */
+    }
+
+    .left-section-guests,
+    .right-section-easy {
+        width: 100%; /* Make sections full width on smaller screens */
+    }
+
+    .right-section-easy h2 {
+        margin-bottom: 40px; /* Adjust margin for smaller screens */
+    }
+
+    .working-with-un {
+        margin-right: 10px; /* Adjust margin for smaller screens */
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .content-container-tree h3 {
+        margin-right: 10px; /* Adjust margin for smaller screens */
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .left-side-tree img {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-right: 0; /* Adjust margin for smaller screens */
+        margin-top: 0; /* Adjust margin for smaller screens */
+    }
+
+    .goal-12 img,
+    .goal-14 img,
+    .goal-15 img,
+    .right-side img {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-right: 0; /* Adjust margin for smaller screens */
+        margin-top: 0; /* Adjust margin for smaller screens */
+    }
+
+    .side-by-side-2 img {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-right: 0; /* Adjust margin for smaller screens */
+    }
+
+    .protecting-guests {
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+
+    footer {
+        padding: 20px; /* Adjust padding for smaller screens */
     }
 }
