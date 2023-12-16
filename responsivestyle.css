@@ -421,23 +421,23 @@ body {
     padding: 20px;
 }
 
-.working-with-un {
+.working-with-un { /* H2: Workng with UN */
     text-align: right;
 	margin-right: 220px;
 }
 
-.working-with-un-2 {
+.working-with-un-2 { /* Tekst under "Working with UN" */
 	text-align: right;
 	margin-right: 50px;
 }
 
-.side-by-side {
+.side-by-side { /* section tree + goal 12, 14 og 15 */
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
 }
 
-.left-side-tree img {
+.left-side-tree img { /* træ billedet */
 	width: 380px;
 	margin-left: auto;
 	margin-right: 10px;
@@ -453,7 +453,7 @@ body {
 	justify-content: space-between;
 }
 
-.goal-12 img,
+.goal-12 img, /* image: 12 responsible consumption */
 .right-side img {
     width: 40%;
     margin-bottom: 5px;
@@ -465,7 +465,7 @@ body {
 	font-size: 15px;
 }
 .goal-14 img,
-.right-side img {
+.right-side img { /* image: 14 life below water */
     width: 40%;
     margin-bottom: 10px;
 	margin-left: 80px;
@@ -473,15 +473,18 @@ body {
 }
 
 .goal-15 img,
-.right-side img {
+.right-side img { /* image: 15 life on land */
     width: 40%;
     margin-bottom: 10px;
 	margin-left: 80px;
 }
 
-.eco-friendly-title {
+
+.protecting-guests { /* H2 "Protecting your guests" */
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
+	margin-right: auto;
+	
 }
 
 footer {  /* Footer */
