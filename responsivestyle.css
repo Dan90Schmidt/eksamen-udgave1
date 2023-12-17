@@ -613,6 +613,7 @@ footer {  /* Footer */
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: -100px;
 }
 
 /* Design af det, der står ind i formularen */
@@ -640,6 +641,21 @@ footer {  /* Footer */
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.center-container { /* Apple Pay device ID */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+	margin-top: 50px; 
+}
+
+.apple-id-text {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 400px; /* Apple Pay device ID tekst */
+    margin-bottom: 20px;
 }
 
 
