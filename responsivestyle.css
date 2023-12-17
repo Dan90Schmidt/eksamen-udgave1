@@ -700,6 +700,8 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+	margin-top: 40px;
+	margin-bottom: auto;
 }
 
 footer h3 {
