@@ -437,6 +437,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
+	margin-left: auto;
+	margin-right: 0;
 }
 
 .left-side-tree img { /* træ billedet */
@@ -582,7 +584,16 @@ footer {  /* Footer */
 	
 }
 
+/* user support siden */
 
+.banner-with-gray-umbrellas img {
+    width: 100%;
+	position: absolute; /* banner billede med grå paraply */
+    top: 0;
+    left: 0;
+	z-index:-1;
+	height: 240px;
+}
 
 /* Media Query for Responsive Design */
 @media only screen and (max-width: 600px) {
