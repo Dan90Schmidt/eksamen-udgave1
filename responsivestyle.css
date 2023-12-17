@@ -522,67 +522,6 @@ body {
 	
 }
 
-footer {  /* Footer */
-    background-color: #FFFFFF;
-    color: #000000 ;
-    text-align: center;
-    padding: 50px;
-    display: flex;
-	margin-top: auto;
-    justify-content: space-around;
-}
-
-.contact-column {  /* Contact us */
-	
-}
-.address-column {  /* Follow us + logoer */
-    text-align: center;
-    margin-left: 160px;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    width: 50%;
-}
-
-.SoMe img {
-    width: 30px;
-    margin-top: 10px; 
-	padding-left: 20px;
-}
-
-.About-us {
-    flex: 1;
-	text-align: center;
-    margin-right: -100px;
-    margin-left: auto;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    width: 50%;
-}
-
-.About-us ul {
-    padding: 0;
-    list-style: none;
-}
-
-.About-us li {
-    margin-bottom: 5px;
-}
-
-.copyright {
-	margin-top: -30px;
-	margin-bottom: 50px;
-	display: flex;
-    flex-direction: column; 
-    align-items: center;
-}
-
-.privat-police {
-	color: black;
-	
-}
 
 /* user support siden */
 
@@ -755,6 +694,57 @@ footer {  /* Footer */
     cursor: pointer;
 }
 
+footer {
+    background-color: white;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    color: #333;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.about-color, .contact-color{
+	color: black;
+}
+
+.contact-info,
+.follow-us,
+.about-us,
+.dripdrop-info,
+.support-info,
+.sales {
+    flex: 1 1 100%;
+    max-width: 200px;
+    margin-right: 10px;
+	margin-left: 10px;
+}
+
+.social-media-logos img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.copyright {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.privat-police {
+	color: black;
+	
+}
 
 /* Media Query for Responsive Design */
 @media only screen and (max-width: 600px) {
