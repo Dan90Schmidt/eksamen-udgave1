@@ -588,12 +588,60 @@ footer {  /* Footer */
 
 .banner-with-gray-umbrellas img {
     width: 100%;
-	position: absolute; /* banner billede med grå paraply */
+	position: absolute; /* banner billede med gron paraply */
     top: 0;
     left: 0;
 	z-index:-1;
 	height: 240px;
+	opacity: 0.5;
 }
+
+.content-container-refund { /* Tekst "Request for Refund" */
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 150px auto;
+    max-width: 600px; 
+}
+
+/* Design af formularen */
+.refund-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Design af det, der står ind i formularen */
+.refund-form p {
+    margin-bottom: 15px;
+}
+
+.refund-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.refund-form input,
+.refund-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.refund-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 /* Media Query for Responsive Design */
 @media only screen and (max-width: 600px) {
