@@ -620,7 +620,7 @@ body {
 	height: 240px;
 }
 
-.left-section-lady {
+.left-section-lady { 
     width: 40%;
     display: inline-block;
     vertical-align: top;
@@ -629,12 +629,12 @@ body {
 	margin-right: auto;
 }
 
-.left-section-lady img {
+.left-section-lady img { /* Billedet af kvinden med paraplyen */
     width: 100%;
     height: auto;
 }
 
-.text-bunch-rain {
+.text-bunch-rain { /* Tekst + h2 container af text-brunch-rain */
     width: 50%;
     display: inline-block;
 	vertical-align: top;
@@ -655,9 +655,9 @@ body {
 	margin-top: 350px;
 }
 
-/* Add your other styles as needed */
 
-.contact-us-form {
+
+.contact-us-form { /* Kontaktformular på contact-us side */
     max-width: 600px;
     margin: auto;
     padding: 50px;
@@ -694,7 +694,7 @@ body {
     cursor: pointer;
 }
 
-footer {
+footer { /* Footer */
     background-color: white;
     padding: 0px;
     display: flex;
@@ -712,11 +712,11 @@ footer p {
     margin: 5px 0;
 }
 
-.about-color, .contact-color{
+.about-color, .contact-color{ /* Farver til link om "about us" */
 	color: black;
 }
 
-.contact-info,
+.contact-info, /* grupper */
 .follow-us,
 .about-us,
 .dripdrop-info,
@@ -728,7 +728,7 @@ footer p {
 	margin-left: 10px;
 }
 
-.social-media-logos img {
+.social-media-logos img { /* SoMe pics */
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -743,7 +743,7 @@ footer p {
     align-items: center;
 }
 
-.privat-police {
+.privat-police { /* farver til privat-police */
 	color: black;
 	
 }
