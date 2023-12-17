@@ -658,6 +658,103 @@ footer {  /* Footer */
     margin-bottom: 20px;
 }
 
+/* Contact us siden */
+
+
+.content-container-contact { /* content container*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px; /* Center the container horizontally */
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin-left: -300px;
+    margin-right: auto;
+}
+
+.menu-background-image img {/* Set background image styles here */
+    width: 100%;
+	position: absolute; /* banner billede med gron paraply */
+    top: 0;
+    left: 0;
+	z-index:-1;
+	height: 240px;
+}
+
+.left-section-lady {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+	margin-top: 90px;
+	margin-left: 50px;
+	margin-right: auto;
+}
+
+.left-section-lady img {
+    width: 100%;
+    height: auto;
+}
+
+.text-bunch-rain {
+    width: 50%;
+    display: inline-block;
+	vertical-align: top;
+	margin-left: 650px;
+	margin-right: auto;
+	margin-top: -550px;
+	line-height: 2;
+}
+
+.text-bunch-rain h2 {
+	margin-left: 200px;
+	margin-right: auto;
+}
+
+.center-section-know-more {
+    width: 100%;
+    text-align: center;
+	margin-top: 350px;
+}
+
+/* Add your other styles as needed */
+
+.contact-us-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.contact-us-form p {
+    margin-bottom: 15px;
+}
+
+.contact-us-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.contact-us-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 /* Media Query for Responsive Design */
 @media only screen and (max-width: 600px) {
