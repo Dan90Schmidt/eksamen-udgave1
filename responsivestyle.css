@@ -126,20 +126,6 @@ body {
 	padding: 20px;
 }
 
-.content-container {
-    margin-left: auto; /* Brighter rainy days... */
-    padding: 20px;
-	display: flex;
-	justify-content: flex-start;
-	margin-right: 20px;
-	line-height: 1.5;
-	margin-top: -390px;
-	flex-direction: column;
-	text-align: center;
-	font-size: 20px;
-	margin-bottom: auto;
-}
-
 .green-line {
     height: 2px;
     background-color: #026928; /* Green color */
@@ -152,14 +138,22 @@ body {
     background-color: white;
 	margin-left: auto;
 	margin-right: 20px;
+	display: flex;
+	justify-content: flex-start;
+	line-height: 26.5px;
+	margin-top: -350px;
+	flex-direction: column;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: auto;
 }
-
 
 .green-line { /* Grøn linje */
     height: 2px;
     background-color: #03A840;
     margin-bottom: 10px;
 }
+
 
 .feature-boxes {
     display: flex;
@@ -794,7 +788,7 @@ footer p {
         width: 80px; /* Adjust logo size for smaller screens */
     }
 
-    .content-container,
+    .side-box2,
 	.side-box1,
     .side-box-container,
     .feature-boxes,
