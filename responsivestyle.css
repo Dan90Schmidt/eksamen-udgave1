@@ -915,7 +915,9 @@ footer p {
     .rotating-banner img.active8,
     .rotating-banner img.active9 {
         margin-right: 0; /* Adjust margin for smaller screens */
-        margin-top: 0; /* Adjust margin for smaller screens */
+        margin-top: 2px; /* Adjust margin for smaller screens */
+		width: 10%;
+		animation: rotateBanner 180s linear infinite;
     }
 
     .left-section-guests,
