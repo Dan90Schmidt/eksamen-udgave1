@@ -658,11 +658,22 @@ body {
 	margin-right: auto;
 	margin-top: -550px;
 	line-height: 2;
+	flex-direction: row;
+}
+
+.paragraph-bunch-rain {
+	margin-left: 600px;
+	margin-right: 30px;
+	line-height: 2;
+	display: flex;
+	flex-direction: row;
 }
 
 .text-bunch-rain h2 {
 	margin-left: 200px;
 	margin-right: auto;
+	display: flex;
+	flex-direction: row;
 }
 
 .center-section-know-more {
@@ -768,18 +779,26 @@ footer p {
 @media only screen and (max-width: 600px) {
     .desktop-menu {
         display: none;
+		
     }
 
     .burger-menu {
         display: block;
         cursor: pointer;
+		position: fixed;
+        top: 0;
+		margin-left: 340px;
+        background-color: transparent;
+        z-index: 2;
+        width: 100%;
+        line-height: 4.5;
     }
 
     #menuToggle:checked ~ .desktop-menu {
         display: flex;
         flex-direction: column;
         align-items: center;
-        position: absolute;
+        position: fixed;
         top: 60px; /* Adjust the top position based on your header height */
         left: 0;
         right: 0;
@@ -916,7 +935,7 @@ footer p {
     .content-container-tree h3 {
         margin-right: 10px; /* Adjust margin for smaller screens */
         margin-left: 10px; /* Adjust margin for smaller screens */
-		margin-top: -2160px;
+		margin-top: -2060px;
 		
     }
 	
@@ -932,6 +951,7 @@ footer p {
         margin-left: 10px; /* Adjust margin for smaller screens */
         margin-right: 0; /* Adjust margin for smaller screens */
         margin-top: 0; /* Adjust margin for smaller screens */
+		width: 90%;
     }
 
     .goal-12 img,
@@ -961,6 +981,38 @@ footer p {
     .protecting-guests {
         margin-right: 10px; /* Adjust margin for smaller screens */
     }
+	
+	.left-section-lady {
+		margin-top: 120px;
+		margin-bottom: auto;
+		flex-direction: column;
+		width: 80%;
+	}
+	
+	.text-bunch-rain {
+		flex-direction: column;
+		margin-left: -60px;
+		margin-top: 70px;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.paragraph-bunch-rain {
+		flex-direction: column;
+		margin-left: 40px;
+		margin-right: 40px;
+		text-align: center;
+		
+	}
+	
+	.center-section-know-more {
+		margin-top: 10px;
+		margin-bottom: auto;
+	}
+	
+	.copyright, .privat-police {
+		text-align: center;
+	}
 
     footer {
         padding: 20px; /* Adjust padding for smaller screens */
