@@ -161,7 +161,7 @@ body {
     margin: -40px;
 	margin-top: 180px;
 	margin-right: auto;
-	margin-left: 20px;
+	margin-left: 40px;
 
 }
 
@@ -173,8 +173,14 @@ body {
 .feature-box img {
     width: 100%; /* Billede 1 */
     max-width: 100px; 
-    height: auto; 
+    height: auto;
 }
+
+.feature-box1 img, .feature-box2 img,
+.feature-box3 img {
+	margin-left: 120px;
+}
+
 
 .feature-content {
     margin-top: 20px;
@@ -209,11 +215,14 @@ body {
     width: 100%; /* Billede 2 */
     max-width: 150px; 
     height: auto; 
+	margin-left: 130px;
+	margin-right: auto;
 }
 
 .feature-content2 {
 	margin-top: 20px;
-	margin-left: 0
+	margin-left: 0;
+	text-align: center;
 }
 
 .feature-content2 h4 {
@@ -248,10 +257,13 @@ body {
     width: 100%; 
     max-width: 100px; 
     height: auto; 
+	margin-left: 170px;
+	margin-right: auto;
 }
 
 .feature-content3 {
     margin-top: 20px;
+	text-align: center;
 }
 
 .feature-content3 h5 {
@@ -820,6 +832,15 @@ footer p {
         margin-right: 10px; /* Adjust margin for smaller screens */
 		flex-direction: column;
     }
+	
+	.side-box2 {
+		width: auto; /* Allow side box width to adjust */
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-right: 10px; /* Adjust margin for smaller screens */
+		flex-direction: column;
+		margin-top: 20px;
+		margin-bottom: auto;
+	}
 
     .feature-box img,
     .feature-box2 img,
@@ -835,6 +856,25 @@ footer p {
         width: 100%; /* Make images responsive */
     }
 
+	.feature-box1 img {
+		margin-top: -180px;
+		margin-bottom: auto;
+		margin-right: auto;
+		margin-left: 150px;
+	}
+	
+	.feature-box2 img {
+		margin-right: auto;
+		margin-left: 100px;
+	}
+	
+	.feature-box3 img {
+		margin-right: auto;
+		margin-left: 130px;
+		margin-top: 50px;
+		margin-bottom: auto;
+	}
+	
     .banner-container {
         width: 100%; /* Make banner container responsive */
     }
