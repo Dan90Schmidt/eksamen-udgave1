@@ -450,6 +450,7 @@ body {
     margin-top: 60px;
 	margin-left: auto;
 	margin-right: 0;
+	flex-direction: row;
 }
 
 .left-side-tree img { /* træ billedet */
@@ -465,6 +466,9 @@ body {
 	text-align: auto;
 	line-height: 1.5;
 	margin-top: -135px;
+	flex-direction: column;
+	display: flex;
+
 }
 
 .content-container-tree h3 {
@@ -519,6 +523,7 @@ body {
     margin-top: 60px;
 	margin-right: auto;
 	margin-left: 0;
+	flex-direction: row;
 }
 
 .side-by-side-2 img { /* 3 cirkler */
@@ -911,7 +916,17 @@ footer p {
     .content-container-tree h3 {
         margin-right: 10px; /* Adjust margin for smaller screens */
         margin-left: 10px; /* Adjust margin for smaller screens */
+		margin-top: -2160px;
+		
     }
+	
+	.working-with-un, .working-with-un-2 {
+		text-align: center;
+	}
+	
+	.content-container-tree {
+		text-align: center;
+	}
 
     .left-side-tree img {
         margin-left: 10px; /* Adjust margin for smaller screens */
@@ -925,12 +940,22 @@ footer p {
     .right-side img {
         margin-left: 10px; /* Adjust margin for smaller screens */
         margin-right: 0; /* Adjust margin for smaller screens */
-        margin-top: 0; /* Adjust margin for smaller screens */
+        margin-top: 0px; /* Adjust margin for smaller screens */
     }
-
+	.side-by-side {
+		margin-bottom: auto;
+		flex-direction: column;
+		margin-top: 200px;
+	}
+	
+	.side-by-side-2{
+		margin-top: 200px;
+		margin-bottom: auto;
+	}
     .side-by-side-2 img {
         margin-left: 10px; /* Adjust margin for smaller screens */
         margin-right: 0; /* Adjust margin for smaller screens */
+		flex-direction: column;
     }
 
     .protecting-guests {
