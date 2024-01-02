@@ -177,6 +177,23 @@ body {
     height: auto;
 }
 
+.feature-box1 img {
+	margin-top: -200px;
+	margin-bottom: 10px;
+}
+
+.feature-box2 img {
+	max-width: 200px;
+	margin-bottom: -50px;
+	margin-left: 110px;
+}
+
+.feature-box3 img {
+	max-width: 800px;
+	margin-top: -400px;
+	margin-left: 170px;
+}
+
 .feature-box1 img, .feature-box2 img,
 .feature-box3 img {
 	margin-left: 120px;
